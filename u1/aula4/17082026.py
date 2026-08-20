@@ -7,3 +7,6 @@
 # termocommit que pode ser salvar/comentario 
 # ex commit -m "teto" m é mensagem 
 # push - u origin main - empurrar para a unidade de origem principal
+
+
+
