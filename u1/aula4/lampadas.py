@@ -7,13 +7,19 @@
 #variaveis largura comprimento e watts 
 #Potencia 3
 
-#1m - 3w
-#3m - x
-#x=3.3 x=9
+#1m  3
+#3   x
+#x=9
 
 #tamanho referencia1 menor ou igual  3x3 =  entao 1 lampada
 
 
-variavel1=1
-varivel2= (>variavel1 + variavel1) =2
-variavel3= (>variavel1 + variavel2)=3
+largura = float(input("Por favor,adicione a largura do seu cômodo em metros!"))
+comprimento = float(input("Por favor,adicione o comprimento do seu cômodo em metros!"))
+potencia = POTENCIA = 3
+area = largura * comprimento
+potencianecessaria = area * 3
+numero_lampadas = int((potencianecessaria + potencia - 1) // potencia)
+
+print(f"{numero_lampadas} lâmpadas são necessárias para iluminar todo o seu cômodo.")
+
