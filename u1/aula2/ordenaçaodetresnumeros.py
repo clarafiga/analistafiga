@@ -2,7 +2,7 @@
 #ecebidos 3 números inteiros, crie um programa que os mostre ordenados em ordem
 #rescente.
 # Dica: Este desafio exige que você use estruturas if aninhadas ou uma série de testes
-#sando operadores de comparação para determinar qual número é o menor, o do
+#usando operadores de comparação para determinar qual número é o menor, o do
 #eio e o maior.
 
 num1 = int(input("Primeiro Número:"))

@@ -7,6 +7,14 @@
 umacaixa = 1.5
 
 
-if altura == 1 
-elif altura== 2
-print (f "Quantidade de caixas: {quantidade}")
+
+comprimento = float(input("Digite o comprimento do cômodo em metros:"))
+largura = float(input("Digite a largura do cômodo em metros:"))
+altura= float(input("Digite a altura do cômodo em metros:"))
+
+
+areapiso = (comprimento * largura)
+areaparedes = (comprimento * altura *2) + (largura * altura *2)
+caixa = 1.5
+print(f"A área do cômodo em metros quadrados é: {areapiso + areaparedes}")
+print(f"A quantidade de caixas de azulejos necessárias é: {(areapiso + areaparedes) / caixa}")
