@@ -8,4 +8,11 @@
 #restantes.
 #● Se as tentativas acabarem, imprima uma mensagem de bloqueio
 
+login = ('clarafiga')
+senha =  ('sherlocked')
+texto ="Bem-Vindo ao Sistema. Digite seu login:"
 
+input("Bem-Vindo ao Sistema. Digite seu login:")
+    
+if login = "clarafiga":
+ print("Acesso Negado.Tente Novamente:")
