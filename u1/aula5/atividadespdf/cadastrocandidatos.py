@@ -8,7 +8,7 @@
 
 for i in range(12):
     print("Bem-vindo ao processo seletivo!")
-    nome = input("DNome completo: ")
+    nome = input("Nome completo: ")
     nascimento = int(input("Ano de Nascimento: "))
     limite = 2008
 

@@ -8,11 +8,21 @@
 #restantes.
 #● Se as tentativas acabarem, imprima uma mensagem de bloqueio
 
-login = ('clarafiga')
-senha =  ('sherlocked')
-texto ="Bem-Vindo ao Sistema. Digite seu login:"
+login = "figaclara"
+senha =  "sherlocked"
+tentativa = 3
 
-input("Bem-Vindo ao Sistema. Digite seu login:")
-    
-if login = "clarafiga":
- print("Acesso Negado.Tente Novamente:")
+for tentativa in range (3):
+    login1 = input("Bem-Vindo ao Sistema. Login:")
+    senha1 = input("Senha:")
+
+    if login1 == login and senha1 == senha:
+        print ("Sucesso, logado!")
+        break
+
+    else:  
+        tentativa - 1
+        print ("Login ou senha incorretos, tente novamente!")
+
+    if tentativa == 2:
+        print("Cancelado!!")
